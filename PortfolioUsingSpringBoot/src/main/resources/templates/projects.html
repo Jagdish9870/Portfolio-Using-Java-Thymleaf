@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+    </head>
+    <body>
+
+            <div th:fragment="projects">
+                <!-- Projects Section-->
+                <section class="py-5">
+                    <div class="container px-5 mb-5">
+                        <div class="text-center mb-5">
+                            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                        </div>
+                        <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-11 col-xl-9 col-xxl-8">
+                                <!-- Project Card 1-->
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-5">
+                                                <h2 class="fw-bolder">Journal App</h2>
+                                                <p>Designed and implemented REST APIs with secure JWT authentication and role-based authorization. Enabled CRUD operations for users, posts with swagger integration</p>
+                                            </div>
+                                            <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Card 2-->
+                                <div class="card overflow-hidden shadow rounded-4 border-0">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-5">
+                                                <h2 class="fw-bolder">Expense Master</h2>
+                                                <p>Built a web-based expense tracker with real-time reporting. Integrated authentication and admin/user role management.</p>
+                                            </div>
+                                            <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card overflow-hidden shadow rounded-4 border-0">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-5">
+                                                <h2 class="fw-bolder">Tour and Travel Desktop App</h2>
+                                                <p>fully comprehensible system for client and user to showcase services provided by agency and help user to book their desired destination.</p>
+                                            </div>
+                                            <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card overflow-hidden shadow rounded-4 border-0">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-5">
+                                                <h2 class="fw-bolder">Wills Thrills
+                                                </h2>
+                                                <p>A comprehensive Commerce-site with user management, product listings, Admin control and payment integration.</p>
+                                            </div>
+                                            <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card overflow-hidden shadow rounded-4 border-0">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-5">
+                                                <h2 class="fw-bolder">Billing System</h2>
+                                                <p>desktop billing system with automated invoice generation and database integration.</p>
+                                            </div>
+                                            <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Call to action section-->
+                <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                    <div class="container px-5 my-5">
+                        <div class="text-center">
+                            <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                            <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" th:href="@{/contact}">Contact me</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+    </body>
+</html>
